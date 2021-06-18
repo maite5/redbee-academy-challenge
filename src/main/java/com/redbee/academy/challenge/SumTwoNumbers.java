@@ -12,6 +12,10 @@ public class SumTwoNumbers {
    */
   public static Integer sum(Integer a, Integer b) {
     //TODO: Implement me
-    return null;
+	Integer sum=a+b; 
+	 System.out.println("Suma: " + sum);
+	 
+    return sum; 
+    
   }
 }

@@ -18,6 +18,8 @@ public class CompareArrayNumbersTests {
     assertEquals(5, result.get(0));
     assertEquals(5, result.get(1));
     assertEquals(5, result.get(2));
+    System.out.println("aqui "); 
+   // System.out.println("equals(): "+ Array.equals");
   }
 
   @Test

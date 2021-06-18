@@ -13,6 +13,9 @@ public class CompareNumbers {
    */
   public static Integer max(Integer a, Integer b, Integer c) {
     //TODO: Implement me
-    return null;
+	 Integer result= Math.max(Math.max(a, b),c);
+	  System.out.println("El numero mayor es: " + result);
+	  
+    return result;
   }
 }
